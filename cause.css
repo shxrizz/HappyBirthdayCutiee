@@ -192,3 +192,15 @@ h1 {
     margin-top: 1rem;
     opacity: 0.7;
 }
+.cute-cat {
+  width: 180px;
+  margin: 30px auto;
+  display: block;
+  animation: floatCat 3s ease-in-out infinite;
+}
+
+@keyframes floatCat {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
